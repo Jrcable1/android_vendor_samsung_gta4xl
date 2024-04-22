@@ -7,7 +7,7 @@ CONFIGFILE=/vendor/etc/gnss/gps.cfg
 DAEMONFILE=/vendor/bin/hw/gpsd
 
 if [ -d "$SILENT_LOGGING_ISSUETRACKER" ] ; then 
-	CONFIGFILE=/vendor/etc/gnss/gps.debug.cfg
+	CONFIGFILE=/vendor/etc/gnss/gps.issuetracker.cfg
 fi
 
 if [ -d "$SILENT_LOGGING_9900" ] ; then 

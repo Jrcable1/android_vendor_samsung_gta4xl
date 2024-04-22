@@ -6,14 +6,14 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),gta4xl)
 
-$(call add-radio-file-sha1-checked,radio/cm.bin_SM-P615,c4d1b834a05f462ec8c4fd5a9523a3c5e0aa6ed2)
-$(call add-radio-file-sha1-checked,radio/keystorage.bin_SM-P615,5b827ceb2b43ca8cb45f10930c25ee66f693c029)
+$(call add-radio-file-sha1-checked,radio/cm.bin_SM-P615,d3c2a5a445e4c84f5efdbf6b967529b63c7a0732)
+$(call add-radio-file-sha1-checked,radio/keystorage.bin_SM-P615,382904222f84abfd718920e20ab0bb5e7f7a387c)
 $(call add-radio-file-sha1-checked,radio/models,529c42994d46f7b8f5f150fe1cd9955ec50a0a74)
-$(call add-radio-file-sha1-checked,radio/modem.bin_SM-P615,9b067063637d91ce6fc12d8cb73090a3271bebd0)
-$(call add-radio-file-sha1-checked,radio/modem_debug.bin_SM-P615,3a9421c512c0a8c749a280689c484abbf613f48d)
-$(call add-radio-file-sha1-checked,radio/sboot.bin_SM-P615,1efc72dd5986cd5fae46a01e1259b8b74a92eae2)
-$(call add-radio-file-sha1-checked,radio/uh.bin_SM-P615,7d77e4fa98f5fc33a1ea3cf2b3fa5bfadbd87981)
-$(call add-radio-file-sha1-checked,radio/up_param.bin_SM-P615,48c5d93caba45cda92257537acc87c49ae611c30)
-$(call add-radio-file-sha1-checked,radio/version_SM-P615,015e8bb8adfd74aa18f1192b5de73f5271b117a7)
+$(call add-radio-file-sha1-checked,radio/modem.bin_SM-P615,c2f60e54e85ffbc137072e4e1be34b504e60cc80)
+$(call add-radio-file-sha1-checked,radio/modem_debug.bin_SM-P615,b061ba3451192396d370221f5fff8444318a5b7c)
+$(call add-radio-file-sha1-checked,radio/sboot.bin_SM-P615,5a0e104fb047de72a8bbff4cf7618faf8a816303)
+$(call add-radio-file-sha1-checked,radio/uh.bin_SM-P615,26b93ca41dcf9dbd5d801e2ba9b2e02648112cb9)
+$(call add-radio-file-sha1-checked,radio/up_param.bin_SM-P615,71bb17c6b0a169cf2a45303ff45f670bec0831e0)
+$(call add-radio-file-sha1-checked,radio/version_SM-P615,f82960685d586d79db475a7bd9db9557f12105c0)
 
 endif
